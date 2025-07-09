@@ -22,9 +22,9 @@ const Hero = () => {
     <div className="relative overflow-hidden">
       <Particles
         particleColors={['#000', '#F8C471', '#F39C12', '#D35400']}
-        particleCount={20}
+        particleCount={25}
         particleSpread={10}
-        speed={0.05}
+        speed={0.07}
         particleBaseSize={4}
         moveParticlesOnHover={true}
         alphaParticles={false}
