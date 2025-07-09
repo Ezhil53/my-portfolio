@@ -32,7 +32,7 @@ const Project = () => {
       tech: "React JS, Tailwindcss, Aceternity UI, EmailJS, Lucide Icons",
       code: "GitHub",
       link: "Live Link",
-      glink: "#",
+      glink: "https://github.com/Ezhil53/my-portfolio",
       live: "#",
 
     },
