@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.nav-div a {
+  font-size: 15px;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-div a:hover {
+ text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.name {
+ background-image: linear-gradient(to right top, #0091ff,  #ff00bb, #f66b7b, #ff6600);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+  background-clip: text;
+
+}
+
+.hero .resume-btn {
+  cursor: pointer;
+  background-image: linear-gradient(to right top, #f45975, #f96468, #fb705c, #fa7d51, #f78b47);
+  color: white;
+
+}
+
+
+.resume-btn:hover .resume-svg{
+  transform: scale(1.1);
+}
+
+.skill-list {
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  scrollbar-width: none;
+  padding: 10px;
+
+}
+
+.skill-item {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  flex: 0 0 auto;
+
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.skill-item img {
+  object-fit: cover;
+  width: 85px;
+  height: 85px;
+  margin: auto;
+  padding: 15px;
+}
+
+
+
