@@ -6,7 +6,7 @@ Welcome to my personal portfolio website built with **React**, **TailwindCSS**, 
 
 ## 🔗 Live Demo
 
-🌐 [Visit my Portfolio]((https://ezhilarasuk-portfolio.vercel.app/))
+🌐 [Visit my Site ](https://ezhilarasuk-portfolio.vercel.app/)
 
 ---
 
