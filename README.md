@@ -1,12 +1,31 @@
-# React + Vite
+# 💼 Ezhilarasu K — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React**, **TailwindCSS**, and animations powered by **Framer Motion**. This site showcases my skills, projects, resume, and contact information in a clean and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [Visit my Site ](https://ezhilarasuk-portfolio.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+- ⚛️ Built with React.js (Functional Components + Hooks)
+- 🎨 Styled using TailwindCSS
+- ✨ Smooth animations using Framer Motion
+- 🚀 Aceternity UI & Shadcn UI for components
+- 💬 Typewriter effect for  taglines
+- 🌟 Interactive tech logos with hover motion
+- 🧠 Responsive design for all devices
+- 📄 Download/View Resume
+- 🔗 Social media integration (LinkedIn, GitHub, Email)
+
+---
+
+
+
+
+
+
