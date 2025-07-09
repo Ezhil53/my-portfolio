@@ -69,23 +69,23 @@ const Navbar = () => {
                     className={`nav-div w-full md:flex md:items-center md:justify-end
                     md:space-x-4 absolute md:relative top-15 left-0 md:top-0 
                     md:left-0 p-4 md:p-0 max-md:rounded-lg max-md:shadow-lg
-                    max-md:bg-transparent backdrop-filter max-md:backdrop-blur-lg
+                    max-md:bg-white backdrop-filter max-md:backdrop-blur-lg
                     transition-all duration-500 ease-in-out transform ${isOpen ? 
                     'translate-x-60' : 'translate-x-full'} md:translate-x-0`}>
 
                     {/* <a  href="/"className="block py-2 px-4 text-black md:inline-block">
                     <i className='bx bx-home'></i> Home
                     </a> */}
-                    <a  href="#about" className="block py-2 px-4 text-black  md:inline-block ">
+                    <a onClick={() => setIsOpen(!isOpen)} href="#about" className="block py-2 px-4 text-black  md:inline-block ">
                     <i className='bx bx-user'></i> About
                     </a>
-                    <a  href="#skills" className="block py-2 px-4 text-black  md:inline-block">
+                    <a onClick={() => setIsOpen(!isOpen)}  href="#skills" className="block py-2 px-4 text-black  md:inline-block">
                     <i className='bx bxs-graduation'></i> Skills
                     </a>
-                    <a  href="#project" className="block py-2 px-4 text-black  md:inline-block">
+                    <a onClick={() => setIsOpen(!isOpen)} href="#project" className="block py-2 px-4 text-black  md:inline-block">
                     <i className='bx bxs-briefcase'></i> Project
                     </a>
-                    <a  href="#contact" className="block py-2 px-4 text-black  md:inline-block">
+                    <a onClick={() => setIsOpen(!isOpen)} href="#contact" className="block py-2 px-4 text-black  md:inline-block">
                     <i className='bx bx-envelope'></i> Contact
                     </a>
                 </div>
