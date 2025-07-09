@@ -164,25 +164,24 @@ const Contact = () => {
 
                 <div ref={formRef} className="space-y-4 text-sm text-gray-300 flex justify-center items-center flex-col md:items-end">
 
-                    <div className="flex items-center gap-3 w-1/2 max-md:w-[70%] bg-white opacity-90 p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
+                    <div className="flex items-center gap-3 w-1/2 max-md:w-[75%] bg-white opacity-90 p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
                         <LocateFixed className="text-orange-400" /> <span className='text-gray-600'>Chennai, Tamil Nadu</span>
                     </div>
-                    <a href="tel:+919751921853" className="flex items-center gap-3 w-1/2 max-md:w-[70%]  bg-white opacity-90  p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
+                    <a href="tel:+919751921853" className="flex items-center gap-3 w-1/2 max-md:w-[75%]  bg-white opacity-90  p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
                         <Phone className="text-orange-400" /> <span className='text-gray-600'>+91 9751921853</span>
                     </a >
-                    <a href="mailto:mahiezhil53@gmail.com" target='_blank' className="flex items-center gap-2 w-1/2 max-md:w-[70%]  bg-white opacity-90  group hover:opacity-100 p-4 rounded-[30px] cursor-pointer hover:shadow-lg ">
-                        <Mail className="text-orange-400" />
-                        <span className="text-gray-600 flex cursor-pointer gap-2 items-center">
-                            mahiezhil53@gmail.com
+                    <a href="mailto:mahiezhil53@gmail.com" target='_blank' className="flex items-center gap-2 w-1/2 max-md:w-[75%]  bg-white opacity-90  group hover:opacity-100 p-4 rounded-[30px] cursor-pointer hover:shadow-lg ">
+                        <Mail className="text-orange-400 me-2" />  <span className="text-gray-600 flex cursor-pointer gap-5 items-center">
+                               Gmail
                             <ArrowUpRight className="opacity-0 group-hover:opacity-100  transition-opacity duration-300" />
                         </span>
                     </a>
-                    <a href="https://www.linkedin.com/in/ezhilarasuk/" target='_blank' className="flex items-center gap-3 w-1/2 max-md:w-[70%]  bg-white opacity-90 group  p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
-                        <Linkedin className="text-orange-400" /> <span href="https://linkedin.com/in/yourusername" className="flex items-center gap-5 text-gray-600  ">  LinkedIn
+                    <a href="https://www.linkedin.com/in/ezhilarasuk/" target='_blank' className="flex items-center gap-3 w-1/2 max-md:w-[75%]  bg-white opacity-90 group  p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
+                        <Linkedin className="text-orange-400" /> <span  className="flex items-center gap-5 text-gray-600  ">  LinkedIn
                             <ArrowUpRight className="opacity-0 group-hover:opacity-100  transition-opacity duration-300" />
                         </span>
                     </a>
-                    <a href="https://github.com/Ezhil53" target='_blank' className="flex items-center gap-3 w-1/2  max-md:w-[70%]  bg-white opacity-90 group  p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
+                    <a href="https://github.com/Ezhil53" target='_blank' className="flex items-center gap-3 w-1/2  max-md:w-[75%]  bg-white opacity-90 group  p-4 rounded-[30px] hover:shadow-lg  hover:opacity-100">
                         <Github className="text-orange-400" /> <span className="flex items-center gap-5 text-gray-600 ">
                             GitHub
                             <ArrowUpRight className="opacity-0 group-hover:opacity-100  transition-opacity duration-300" />
