@@ -1,20 +1,19 @@
-import React from 'react'
+import React from 'react';
 import { motion } from 'framer-motion';
-import HTML from '../assets/Skills/HTML-5.png';
-import CSS from '../assets/Skills/css-3.svg';
-import JS from '../assets/Skills/js.png';
-import BS from '../assets/Skills/Bootstrap.png';
+import HTML from '../assets/Tech_Logos/html.svg';
+import CSS from '../assets/Tech_Logos/css.svg';
+import JS from '../assets/Tech_Logos/js.svg';
+import BS from '../assets/Tech_Logos/bootstrap.svg';
 import Reactjs from '../assets/Skills/React.png';
-import Tailwind from '../assets/Skills/tailwind.png';
-import Java from '../assets/Skills/java.webp';
+import Tailwind from '../assets/Tech_Logos/tailwindcss.svg';
+import Java from '../assets/Tech_Logos/java.svg';
 import Php from '../assets/Skills/php.png';
-import Mysql from '../assets/Skills/mysql.svg';
-import Mongo from '../assets/Skills/mango.png';
-import Canva from '../assets/Skills/canva.jpg';
-import Figma from '../assets/Skills/figma.png';
-import Git from '../assets/Skills/git.png';
-import Github from '../assets/Skills/github.jpg';
-import Vscode from '../assets/Skills/vsc.png';
+import Mysql from '../assets/Tech_Logos/mysql.svg';
+import Mongo from '../assets/Tech_Logos/mongodb.svg';
+import Canva from '../assets/Tech_Logos/canva.svg';
+import Figma from '../assets/Tech_Logos/figma.svg';
+import Github from '../assets/Tech_Logos/github.svg';
+import Vscode from '../assets/Tech_Logos/vs-code.svg';
 
 
 const skills = [
@@ -36,7 +35,6 @@ const lang = [
 const design = [
     { img: Canva, name: 'Canva' },
     { img: Figma, name: 'Figma' },
-    { img: Git, name: 'Git' },
     { img: Github, name: 'Github' },
     { img: Vscode, name: 'VS Code' }
 ]
@@ -70,7 +68,7 @@ const Skills = () => {
                         <div className='skill-list gap-4 flex items-center justify-center'>
                             {skills.map(skill => (
                                 <div className='skill-item relative group mt-3 ' key={skill.name}>
-                                    <img src={skill.img} alt={skill.name} className='img ' />
+                                    <img src={skill.img} alt={skill.name} className='img w-50 h-50 ' loading="lazy" />
                                     
                                     <p className="absolute -bottom-5  left-1/2 transform -translate-x-1/2 px-2 py-1 bg-black/80 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
                                         {skill.name}
@@ -86,7 +84,7 @@ const Skills = () => {
                             <div className='skill-list gap-3 place-content-center'>
                                 {lang.map(lang => (
                                     <div className='skill-item relative group  ' key={lang.name}>
-                                        <img src={lang.img} alt={lang.name} className='img ' />
+                                        <img src={lang.img} alt={lang.name} className='img w-50 h-50 ' loading="lazy" />
                                         <p className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-black/80 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">{lang.name}</p>
                                     </div>
                                 ))}
@@ -99,7 +97,7 @@ const Skills = () => {
                             <div className='skill-list gap-3 flex justify-center '>
                                 {design.map(design => (
                                     <div className='skill-item relative group mt-1' key={design.name}>
-                                        <img src={design.img} alt={design.name} className='img ' />
+                                        <img src={design.img} alt={design.name} className='img w-50 h-50 ' loading="lazy" />
                                         <p className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-black/80 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">{design.name}</p>
                                     </div>
                                 ))}
