@@ -83,7 +83,7 @@ const Hero = () => {
              
               <div className='flex items-center justify-center w-max mx-auto'>
                 <a
-                  href="https://drive.google.com/file/d/124A-Z8E1ZFA9wiTNB3MqIw7YIH1qteHE/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ZDcMJ7lkE_7QcpFVhhK8bTiPQd8ydD0h/view?usp=sharing"
                   target='_blank'
                   className='px-2 py-2 rounded-[30px] shadow-2xl resume-btn text-center flex items-center justify-between hover:scale-105 transition-all duration-300'
                 >
